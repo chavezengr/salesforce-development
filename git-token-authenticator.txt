@@ -1,7 +1,14 @@
 username: chavezengr@gmail.com
 password: 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
 
-salesforce: https://github.com/chavezengr/salesforce-develop.git
+salesforce: 
+https://github.com/chavezengr/salesforce-develop.git
 
 https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
 https://docs.github.com/en/authentication/authenticating-with-saml-single-sign-on/authorizing-a-personal-access-token-for-use-with-saml-single-sign-on
+
+retriving changes from org: 
+sfdx force:source:retrieve --metadata CustomObject:Language_Course_Instructor__c,CustomField:Language_Course__c.Course_Instructor__c
+
+cli command for deploy:
+sfdx force:source:deploy --sourcepath force-app/main/default/triggers

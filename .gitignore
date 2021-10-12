@@ -13,6 +13,7 @@
 node_modules
 RecordViewer
 RecordViewer/
+git-token-authenticator
 
 
 # LWC VSCode autocomplete
