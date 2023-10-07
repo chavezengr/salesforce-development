@@ -1,2 +1,4 @@
 # salesforce-develop
-salesforce developer repository
+L| Apex
+L| Lightning Web Component 
+L| Aura
